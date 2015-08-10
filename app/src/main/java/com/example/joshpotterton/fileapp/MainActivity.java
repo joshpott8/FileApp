@@ -55,7 +55,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try{
-                    //FileReader f = new FileReader(FILENAME);
+                    editText.setText("");
+
                     FileInputStream f = openFileInput(FILENAME);
                     InputStreamReader inputStreamReader = new InputStreamReader(f);
                     BufferedReader bufferedReader = new BufferedReader(inputStreamReader);

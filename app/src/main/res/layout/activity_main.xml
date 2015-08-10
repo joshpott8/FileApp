@@ -11,23 +11,26 @@
         android:layout_height="250dp"
         android:id="@+id/editText"
         android:inputType="textMultiLine"
-        android:ems="10"/>
+        android:ems="10"
+        android:hint="Enter some text"
+        android:gravity="top"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/saveBtn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Save"
-            android:layout_gravity="left"/>
+            />
 
 
         <Button
             android:id="@+id/openBtn"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Open"
             />
