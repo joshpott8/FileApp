@@ -18,13 +18,15 @@
         android:layout_height="match_parent">
 
         <Button
+            android:id="@+id/saveBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Save"
-            android android:layout_gravity="left"/>
+            android:layout_gravity="left"/>
 
 
         <Button
+            android:id="@+id/openBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Open"
